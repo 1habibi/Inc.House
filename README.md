@@ -20,18 +20,37 @@ Source design on Figma: [`*CLICK*`](https://www.figma.com/file/SjHvI8W1yzwJjzyUr
 ___
 
 ### Desktop
+
+---
 <img src="./readme_assets/desktop.png" width="100%" alt="preview">
+
+---
 <img src="./readme_assets/desktop2.png" width="100%" alt="preview">
+
+---
 <img src="./readme_assets/desktop3.png" width="100%" alt="preview">
 
 ### Tablet
+
+---
+
 <img src="./readme_assets/tablet.png" width="70%" alt="preview">
+
+---
 <img src="./readme_assets/tablet2.png" width="70%" alt="preview">
+
+---
 <img src="./readme_assets/tablet3.png" width="70%" alt="preview">
 
 ### Mobile
+
+---
 <img src="./readme_assets/mobile.png" width="60%" alt="preview">
+
+---
 <img src="./readme_assets/mobile2.png" width="60%" alt="preview">
+
+---
 <img src="./readme_assets/mobile3.png" width="60%" alt="preview">
 
 ## Installation
