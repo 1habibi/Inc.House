@@ -1,0 +1,18 @@
+@import "./style/vars";
+@import "./style/mixins";
+@import "./libs/normalize.css";
+
+@import "./style/fonts";
+@import "./style/mainStyles";
+
+// blocks
+@import "./style/blocks/header";
+@import "./style/blocks/nav";
+@import "./style/blocks/logo";
+@import "./style/blocks/cart";
+@import "./style/blocks/hero";
+@import "./style/blocks/reproductions";
+@import "./style/blocks/cards";
+@import "./style/blocks/info";
+@import "./style/blocks/about-us";
+@import "./style/blocks/footer";

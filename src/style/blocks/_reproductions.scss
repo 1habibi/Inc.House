@@ -1,0 +1,25 @@
+.reproductions {
+  &__top {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include media($xs, $md) {
+      flex-direction: column;
+      align-items: flex-start;
+      row-gap: 20px;
+    }
+
+    .filters {
+      display: flex;
+      column-gap: 32px;
+
+      @include media($xs, $sm) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+      }
+    }
+  }
+}

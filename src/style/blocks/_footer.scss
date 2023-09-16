@@ -1,0 +1,90 @@
+.footer {
+  background: $lightGreen;
+
+  &__wrapper {
+    display: flex;
+    min-height: 168px;
+    padding: 23px 40px;
+
+    @include media($xs, $lg) {
+      flex-direction: column;
+      row-gap: 40px;
+    }
+  }
+  &__info {
+    margin-right: 115px;
+
+    @include media($lg, $xl) {
+      margin-right: 90px;
+    }
+
+    .phone {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+
+    .master {
+      color: $grey;
+      font-size: 18px;
+    }
+  }
+  &__nav {
+    display: flex;
+    column-gap: 60px;
+    margin-right: 248px;
+
+    @include media($lg, $xl) {
+      margin-right: 100px;
+      column-gap: 30px;
+    }
+
+    @include media($xs, $sm) {
+      flex-direction: column;
+      row-gap: 30px;
+    }
+
+    &-title {
+      font-size: 20px;
+      margin-bottom: 6px;
+    }
+
+    &-list {
+      li {
+        font-size: 18px;
+        color: $grey;
+        margin-bottom: 6px;
+        line-height: 150%;
+      }
+    }
+  }
+  &__logo {
+    margin-bottom: 35px;
+  }
+  &__links {
+    .socials {
+      margin-bottom: 13px;
+      display: flex;
+      column-gap: 33px;
+      align-items: center;
+
+      img {
+        width: 20px;
+        height: 20px;
+      }
+
+      .youtube {
+        height: 16px;
+      }
+    }
+
+    .license {
+      font-size: 12px;
+      color: $grey;
+
+      p {
+        line-height: 120%;
+        margin-bottom: 6px;
+      }
+    }
+  }
+}

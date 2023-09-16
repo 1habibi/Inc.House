@@ -1,0 +1,75 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: $dark;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 40px;
+  max-width: 1205px;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.none {
+  display: none;
+}
+
+.overflowHidden {
+  overflow: hidden;
+}
+
+.btn {
+  font-size: 20px;
+
+  &_light {
+    border: 1px solid $midGreen;
+    color: $midGreen;
+    padding: 21px 60px;
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+      background-color: $darkGreen;
+      color: $light;
+    }
+  }
+
+  &_rounded {
+    padding: 10px 20px;
+    background: $lightGreen;
+    border-radius: 20px;
+  }
+
+  &_active {
+    color: $light;
+    background: $darkGreen;
+  }
+
+  &_card {
+    width: 100%;
+    padding: 21px 106px;
+
+    @include media($xs, $md) {
+      padding: 14px 0;
+    }
+  }
+
+  &_promo {
+    background: $orange;
+    color: $dark;
+    padding: 21px 60px;
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover {
+      background-color: darken($orange, 20%);
+    }
+  }
+}
+
+.subtitle {
+  font-size: 40px;
+}
